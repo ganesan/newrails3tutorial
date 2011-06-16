@@ -1,0 +1,20 @@
+#Memo
+
+git remote add origin git@github.com:ganesan/newrails3tutorial.git
+git push -u origin master
+
+
+gem install heroku
+heroku create
+
+git push heroku master
+git push 
+git push heroku
+
+#Open to Browser
+heroku open
+
+
+#Create controller
+$rails generate controller Pages home contact
+
