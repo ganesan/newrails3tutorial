@@ -18,3 +18,39 @@ heroku open
 #Create controller
 $rails generate controller Pages home contact
 
+
+Testing with Rspec
+$ [sudo] gem install autotest -v 4.4.6
+$ [sudo] gem install autotest-rails-pure -v 4.1.2
+
+
+$ [sudo] gem install autotest-fsevent -v 0.2.4
+$ [sudo] gem install autotest-growl -v 0.2.9
+
+
+$bundle exec rspec spec/
+$bundle exec rspec spec/controllers/
+$bundle exec spec/contoller/pages_controller_spec.rb
+
+
+bundle install --binstubs
+
+
+$ time rspec --drb spec/
+
+
+
+Setups
+$bundle exec spork  one terminal
+$autotest
+
+
+
+
+
+
+
+
+
+
+
