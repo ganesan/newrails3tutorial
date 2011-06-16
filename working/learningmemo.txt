@@ -45,6 +45,13 @@ $bundle exec spork  one terminal
 $autotest
 
 
+$ git add .
+$ git commit -m "Done with static pages"
+
+$ git checkout master
+$ git merge static-pages
+
+
 
 
 
