@@ -51,6 +51,13 @@ $ git commit -m "Done with static pages"
 $ git checkout master
 $ git merge static-pages
 
+$ bundle exec rspec spec/
+$ git push
+
+$ bundle exec rspec spec/
+$ git push heroku
+
+
 
 
 
