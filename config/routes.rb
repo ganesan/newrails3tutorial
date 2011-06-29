@@ -1,12 +1,15 @@
 Rails3tutorial::Application.routes.draw do
   
+  get "users/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   
   match '/contact', :to => 'pages#contact'
-  match '/help', :to => 'pages#help'
-  match '/about', :to => 'pages#about'
+  match '/help',    :to => 'pages#help'
+  match '/about',   :to => 'pages#about'
+  match '/signup',  :to => 'users#new'
   
   
   # Sample of regular route:
